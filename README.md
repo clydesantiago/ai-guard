@@ -1,8 +1,24 @@
-# React + Vite
+# How to run the project ❓
+1.) Clone the Repository:
+   - Navigate to the directory where you want to clone the project.
+ ```
+git clone https://github.com/clydesantiago/ai-guard.git
+```
+2.) Navigate to the Project Directory:
+   - After cloning, move into the project directory
+ ```
+cd ai-guard
+```
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+3.) Install NPM Dependencies:
+   - Run these commands to install JavaScript dependencies and compile assets:
+ ```
+npm install
+npm run dev
+```
+4.) cd to backend folder & run the following:
+   - Run these commands to open the environment on the backend
+ ```
+. .venv/bin/activate
+pip install -r requirements.txt
+```
