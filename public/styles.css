@@ -1,0 +1,46 @@
+.summarize-button {
+    width: 100%;
+    box-shadow: none;
+    margin-block-start: 20px;
+    margin-block-end: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #F3F4F6;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.summarize-button:hover {
+    box-shadow: 1px 1px 10px gray;
+}
+
+.summarize-button:disabled {
+    background-color: #E5E7EB;
+    color: #A1A1AA;
+    cursor: not-allowed;
+}
+
+.summarize-button .icon {
+    margin-right: 8px;
+}
+
+.summarize-content {
+    width: 100%;
+    margin-block-start: 20px;
+    margin-block-end: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #F3F4F6;
+}
+  
+.summarized-title {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
